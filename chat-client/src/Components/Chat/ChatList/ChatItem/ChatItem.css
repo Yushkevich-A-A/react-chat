@@ -1,0 +1,15 @@
+.chat-item {
+    width: 400px;
+    border: 1px solid #818181;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-item:nth-child( n + 2 ) {
+    margin-top: 10px;
+}
+
+.my-message {
+    align-self: flex-end;
+}

@@ -1,0 +1,12 @@
+.chat {
+     width: 700px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.chat-h1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: start;
+    padding: 20px;
+}

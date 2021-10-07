@@ -1,0 +1,39 @@
+.chat-input {
+    width: 400px;
+    border: 1px solid #818181;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-block {
+    width: 100%;
+}
+
+.input-textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+}
+
+.input-textarea:focus-visible {
+    outline: none;
+} 
+
+.send-message {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #818181;
+    border-radius: 50%;
+}
+
+.send-message::after {
+    content: '>';
+    display: block;
+    color: green;
+    font-size: 20px;
+}

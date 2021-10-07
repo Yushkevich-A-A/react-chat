@@ -1,0 +1,7 @@
+.chat-list {
+    height: 300px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
